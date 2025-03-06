@@ -1,0 +1,182 @@
+.calculator-container {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.calculator-container h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--color-text-primary);
+}
+
+.toggle-container {
+  margin-bottom: 20px;
+}
+
+/* .toggle-container ion-segment {
+  --background: #04ad83;
+  border-radius: 8px;
+} */
+
+/* .toggle-container ion-segment-button {
+  --color: var(--color-text-secondary);
+  --color-checked: #fff;
+  --background-checked: var(--ion-color-primary);
+  --border-radius: 8px;
+  --indicator-color: transparent;
+  min-height: 40px;
+  font-size: 14px;
+  text-transform: none;
+} */
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  --background: transparent;
+  margin-bottom: 5px;
+}
+
+.input-item ion-label {
+  color: var(--color-text-primary);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-item ion-input {
+  text-align: right;
+  --padding-end: 25px;
+  font-weight: 500;
+  color: #00b386;
+  font-size: 18px;
+}
+
+.currency-symbol,
+.percentage-symbol,
+.year-symbol {
+  position: absolute;
+  right: 8px;
+  color: #00b386;
+  font-weight: 500;
+}
+
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.custom-range {
+  --bar-background: #e0e0e0;
+  --bar-background-active: #00b386;
+  --knob-background: #00b386;
+  --pin-background: var(--ion-color-primary);
+  padding: 0;
+}
+
+.invested-amount {
+  margin-top: 30px;
+}
+
+.invested-amount ion-item {
+  --background: transparent;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+.invested-amount ion-label {
+  font-weight: 500;
+}
+
+.amount-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.results-container {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--color-card-background);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.results-container ion-item {
+  --background: transparent;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+.results-container ion-label {
+  font-weight: 500;
+}
+
+.chart-container {
+  margin: 20px 0;
+  position: relative;
+  height: 200px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.legend-color.invested {
+  background-color: var(--color-invested);
+}
+
+.legend-color.returns {
+  background-color: var(--color-returns);
+}
+
+.legend-text {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.calculator-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.calculator-footer h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.start-sip-button {
+  --background: #00b386;
+  --color: #fff;
+  --border-radius: 8px;
+  --box-shadow: none;
+  margin-top: 20px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logo-text {
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
